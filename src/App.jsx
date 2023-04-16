@@ -2,13 +2,12 @@ import "./App.css";
 import { DrinkButtons } from "./components/DrinkButtons";
 
 export const App = () => {
-  const greeter =
-    "Greetings valued customer. Would you like something to drink?";
+  const greeting = "Welcome to our cafe!";
 
   return (
-    <main>
-      <h1>{greeter}</h1>
+    <div className="App">
+      <h1>{greeting}</h1>
       <DrinkButtons />
-    </main>
+    </div>
   );
 };

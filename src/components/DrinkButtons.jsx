@@ -1,13 +1,13 @@
+import React from "./DrinkButtons.css";
+
 export const DrinkButtons = () => {
   return (
     <>
-      <header>
-        <h2>We have coffee and Tea.</h2>
-      </header>
-      <button-group>
-        <button type="button">Coffee</button>
-        <button type="button">Tea</button>
-      </button-group>
+      <h2>Would you like tea or coffee?</h2>
+      <div className="button-group">
+        <button className="button">Tea</button>
+        <button className="button">Coffee</button>
+      </div>
     </>
   );
 };
